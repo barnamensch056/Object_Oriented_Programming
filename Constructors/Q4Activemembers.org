@@ -1,0 +1,5 @@
+* Things to be noted while running the program
+We declare a static integer count to keep count of the object made in it.
+
+** By this program it is clear that any function called within  the class will execute before 
+** the destructor function is called and after constructor function is called.

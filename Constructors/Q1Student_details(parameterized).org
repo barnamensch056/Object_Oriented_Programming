@@ -1,0 +1,10 @@
+Here I leaarned about the *paramaterized constructors*.
+**  Constructors parameters if declared inside private member in a class then we need to adress them else likke as**
+* class Marks{  
+    int marks1[5];
+    char  name[30];
+    int   rollNo;
+    public:
+    Marks(int a[5]){
+        for(int i=0;i<5;i++){
+            marks1[i]=a[i];} 
